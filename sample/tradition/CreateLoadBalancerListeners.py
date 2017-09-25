@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 import sys
-
-sys.path.append('..')
+import os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)) + "/../..")
 
 from src.QcloudApi.qcloudapi import QcloudApi
 

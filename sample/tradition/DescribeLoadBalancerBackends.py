@@ -1,6 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)) + "/../..")
 from src.QcloudApi.qcloudapi import QcloudApi
 
 action = 'DescribeLoadBalancerBackends'  # 查询负载均衡后端绑定的机器
