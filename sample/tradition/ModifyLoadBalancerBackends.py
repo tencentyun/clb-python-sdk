@@ -1,6 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)) + "/../..")
 from src.QcloudApi.qcloudapi import QcloudApi
 
 action = 'ModifyLoadBalancerBackends'  # 修改负载均衡后端机器的权重
