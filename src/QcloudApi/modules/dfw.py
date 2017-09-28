@@ -10,8 +10,8 @@ def main():
     action = 'DescribeSecurityGroups'
     config = {
         'Region': 'gz',
-        'secretId': 'A***REMOVED***',
-        'secretKey': '***REMOVED***',
+        'secretId': 'ÄãµÄsecretId',
+        'secretKey': 'ÄãµÄsecretKey',
         'method': 'get'
     }
     params = {}
