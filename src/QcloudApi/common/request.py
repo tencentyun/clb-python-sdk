@@ -47,8 +47,8 @@ class Request:
         return req.text
 
 def main():
-    secretId = '***REMOVED***'
-    secretKey = '***REMOVED***'
+    secretId = ''
+    secretKey = ''
     params = {}
     request = Request(secretId, secretKey)
     print request.generateUrl('dfw.api.qcloud.com', '/v2/index.php', params)
