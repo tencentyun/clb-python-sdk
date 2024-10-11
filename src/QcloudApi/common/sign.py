@@ -21,8 +21,8 @@ class Sign:
         return binascii.b2a_base64(hashed.digest())[:-1]
 
 def main():
-    secretId = 'A***REMOVED***'
-    secretKey = '***REMOVED***'
+    secretId = ''
+    secretKey = ''
     params = {}
     sign = Sign(secretId, secretKey)
     print sign.make('https://dfw.api.qcloud.com', '/v2/index.php', params)
