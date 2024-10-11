@@ -9,8 +9,8 @@ module = 'lb'
 action = 'InquiryLBPrice'  # 查询负载均衡的价格
 config = {
     'Region': 'gz',
-    'secretId': '***REMOVED***',
-    'secretKey': '***REMOVED***',
+    'secretId': '',
+    'secretKey': '',
     'method': 'get'
 }
 
