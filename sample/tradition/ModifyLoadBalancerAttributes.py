@@ -9,8 +9,8 @@ module = 'lb'
 action = 'ModifyLoadBalancerAttributes'  # 修改传统型负载均衡的属性
 config = {
     'Region': 'gz',
-    'secretId': '***REMOVED***',
-    'secretKey': '***REMOVED***',
+    'secretId': '',
+    'secretKey': '',
     'method': 'get'
 }
 
